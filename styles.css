@@ -1,0 +1,15 @@
+:root{
+    --cyanPrimary:#2ab2af;
+    --bringYellowPrimary:#c0df34;
+    --lightGrey:#e5eff5;
+    --greyish:#98a6bd;
+}
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+html{
+    font-size: 62.5%;
+}
