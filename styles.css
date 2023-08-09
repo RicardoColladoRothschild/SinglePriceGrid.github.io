@@ -44,7 +44,8 @@ body{
     height: 255px;
     padding:20px;
     background-color:white;
-    border-radius: 6px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .main-container--communityInfo h1{
