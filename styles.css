@@ -20,6 +20,7 @@ body{
     width:100%;
     height: 100vh;    
     background-color:var(--lightGrey);
+    
 }
 
 .main-container{
@@ -27,11 +28,13 @@ body{
     height: auto;
     margin:0 auto;
     margin-top:35px;
+    
     display:flex;
     flex-wrap: wrap;
     border-radius: 6px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.16);
     font-family: var(--fontSetUp);
+    
     
     
 }
@@ -124,6 +127,30 @@ body{
 
     box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.25);
 
+}
+
+.main-container--us{
+    width:100%;
+    padding:20px;
+   
+    background-color: var(--cyanPrimary);
+    opacity:0.8;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius:8px;
+}
+
+.main-container--us h3{
+    color:whitesmoke;
+    margin-bottom:15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.main-container--us ul{
+    line-height: 1.4rem;
+    list-style: none;
+    color:whitesmoke;
 }
 
 
